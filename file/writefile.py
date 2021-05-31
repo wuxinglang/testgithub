@@ -6,7 +6,7 @@ for i in set(a):
     print(a.count(i))
 
 # 一段话中每个单词出现的个数
-a="I like the way you have, with you, 'I' have never envied anyone I I I I"
+a="I like the way you s have, with you, 'I' have never envied anyone I I I I"
 b=a.replace(',','')      # 替换句子中的“,”号
 c=b.replace("'",'').split(' ')    # 替换句子中的“‘”
 # b=a.replace(',','').split(' ')
